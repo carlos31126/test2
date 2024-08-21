@@ -1,0 +1,13 @@
+# .github/workflows/call-print-hello.yml
+name: Call Print Hello
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-reusable-workflow:
+    uses: carlos31126/test1/.github/workflows/print-hello-reusable.yml@main
+    with:
+      message: 'Hello'
