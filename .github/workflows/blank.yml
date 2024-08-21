@@ -8,6 +8,6 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: carlos31126/test1/.github/workflows/print-hello-reusable.yml@main
+    uses: carlos31126/test1/.github/workflows/test.yml@main
     with:
       message: 'Hello'
